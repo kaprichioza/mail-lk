@@ -1,0 +1,47 @@
+.middle-side {
+    background-color: #f9f9f9;
+    min-width: 334px;
+    min-height: 100vh;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    margin-bottom: 38px;
+    background-color: #fff;
+    height: 45px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 21px;
+    border-radius: 21px;
+}
+
+.search-bar svg {
+    margin-right: 10px;
+}
+.type-mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px 20px 30px;
+}
+.type-mail__title {
+    font-size: 24px;
+    line-height: 29px;
+    color: #4c4f59;
+}
+.type-mail__sort-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    line-height: 16px;
+    color: #484c51;
+}
+.type-mail__sort-container svg {
+    margin-left: 8px;
+}
+.type-mail__sort-container .MuiButton-label {
+    text-transform: none;
+    color: #484c51;
+}

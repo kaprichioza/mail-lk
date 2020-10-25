@@ -1,0 +1,57 @@
+.content-title-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 30px 20px 30px;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.1);
+}
+.content-title {
+    padding-bottom: 22px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4c4f59;
+}
+.content-title__user-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content-title__user-info {
+    display: flex;
+}
+.content-title__user-info_avatar {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+.content-title__user-info_avatar img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.content-title__user-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-title__user-data_name {
+    font-size: 18px;
+    line-height: 22px;
+    color: #4c4f59;
+    padding-bottom: 5px;
+}
+.content-title__user-data_email {
+    font-size: 12px;
+    line-height: 14px;
+    color: #4c4f59;
+}
+.content-title__user-data_email span {
+    color: #6b6e7f;
+}
+.content-title__data {
+    font-size: 13px;
+    line-height: 16px;
+    color: #4c4f59;
+    opacity: 0.3;
+}
+/* */
