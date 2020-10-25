@@ -1,0 +1,22 @@
+.content-btns-action {
+    padding: 30px;
+}
+.content-btns-action button {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #8E8E93;
+    border-radius: 50%;
+    min-width: auto;
+    min-height: auto;
+    align-items: center;
+    padding: 0;
+    align-self: center;
+    margin-right: 10px;
+}
+.svg-mail {
+    margin-left: 5px;
+}
+.content-btns-action button.Mui-selected, .content-btns-action button.MuiBottomNavigationAction-iconOnly {
+    padding: 0;
+}

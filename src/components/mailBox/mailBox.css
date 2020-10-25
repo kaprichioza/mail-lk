@@ -1,0 +1,72 @@
+.mail-container.active {
+    background-color: white;
+    border-left: 3px solid #379aff;
+    border-bottom: none;
+}
+.mail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px 0 18px;
+    height: 92px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #4c4f59;
+    border-bottom: 1px solid #ededed;
+}
+.mail-list {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.mail-container.active + .mail-container {
+    border: none;
+}
+.mail-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mail-title__container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.mail-ico {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #379aff;
+    margin-right: 5px;
+}
+.active .mail-ico {
+    background: white;
+}
+.mail-data {
+    display: flex;
+}
+.mail-data__container {
+    display: flex;
+    flex-direction: column;
+}
+.mail-title {
+}
+.mail-author {
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #a3a3a8;
+}
+
+.mail-time {
+    font-size: 12px;
+    line-height: 14px;
+    color: #4c4f59;
+}
+.mail-attach {
+}
+.unread {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    color: #4c4f59;
+}
