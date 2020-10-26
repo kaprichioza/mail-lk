@@ -1,16 +1,9 @@
 import React from 'react';
 import './emailLabels.css';
 import { labelsContext } from './labelsContext';
+import { EmailLabelItem } from './../emailLabelItem/emailLabelItem';
 
-export const EmailLabels = () => {
-    function EmailLabelItem({ labelsContext }) {
-        return (
-            <div className="mail-labels__container_type">
-                <div className={'label-circle ' + labelsContext.color}></div>
-                <div className="label-name">{labelsContext.name} {labelsContext.count ? `${labelsContext.count}` : ''}</div>
-            </div>
-        );
-    };
+export const EmailLabels = () => {    
     return (
         <section className="mail-labels">
             <div className="mail-labels__title">LABELS</div>

@@ -1,18 +1,9 @@
 import React from 'react';
 import './emailActions.css';
 import { emailActionContext, svgInbox } from './emailActionContext';
+import { EmailActionItem } from '../emailActionItem/emailActionItem';
 
-export const EmailActions = () => {
-    function EmailActionItem({ emailActionContext }) {
-        return (
-            <div>
-                <div className="mail-action__container_icon">
-                    {emailActionContext.icon}
-                </div>
-                <div className="mail-action__container_description active">{emailActionContext.name + ' ' + emailActionContext.count}</div>
-            </div>
-        );
-    }
+export const EmailActions = () => { 
     return (
         <section className="mail-action">
             <div className="mail-action__title">MAILBOX</div>
