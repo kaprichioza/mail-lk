@@ -13,6 +13,7 @@
     line-height: 18px;
     color: #4c4f59;
     border-bottom: 1px solid #ededed;
+    cursor: pointer;
 }
 .mail-list {
     display: flex;

@@ -2,7 +2,7 @@ import React from 'react'
 import { mailData } from './mailData';
 import './mailBox.css';
 
-function Emails({ mailData }) {
+function EmailItem({ mailData }) {
     return (
         <div className={ mailData.isActive ? 'mail-container active' : 'mail-container'}>
             <div className="mail-info">
@@ -38,7 +38,7 @@ export const MailBox = () => {
     return (
         <div className="mail-list">
             {mailData.map((mailData, index) => (
-                <Emails
+                <EmailItem
                     key={index}
                     index={index}
                     mailData={mailData}
