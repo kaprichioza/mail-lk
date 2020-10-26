@@ -1,8 +1,8 @@
 import React from 'react';
 import './navigation.css';
 import { Button } from '@material-ui/core';
-import { EmailLabels } from './../email-labels/emailLabels';
-import { EmailActions } from './../email-actions/emailActions';
+import { EmailLabels } from '../emailLabels/emailLabels';
+import { EmailActions } from '../emailActions/emailActions';
 export const Navigation = () => {
     return (
         <div className="left-side-wrapper">
