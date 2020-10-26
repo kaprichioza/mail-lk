@@ -2,6 +2,10 @@
     background-color: #f9f9f9;
     min-width: 334px;
     min-height: 100vh;
+    overflow: scroll;
+}
+.middle-side-wrapper {
+    max-height: 100vh;
 }
 .search-bar {
     display: flex;
