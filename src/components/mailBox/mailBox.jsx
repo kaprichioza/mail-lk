@@ -4,11 +4,11 @@ import './mailBox.css';
 
 function EmailItem({ mailData }) {
     return (
-        <div className={ mailData.isActive ? 'mail-container active' : 'mail-container'}>
+        <div className={mailData.isActive ? 'mail-container active' : 'mail-container'}>
             <div className="mail-info">
                 <div className="mail-title__container">
                     <div className="mail-ico"></div>
-                    <div className={ mailData.isUnread ? 'mail-title unread' : 'mail-title'}>
+                    <div className={mailData.isUnread ? 'mail-title unread' : 'mail-title'}>
                         {mailData.title}
                     </div>
                 </div>
@@ -36,14 +36,16 @@ function EmailItem({ mailData }) {
 };
 export const MailBox = () => {
     return (
-        <div className="mail-list">
-            {mailData.map((mailData, index) => (
-                <EmailItem
-                    key={index}
-                    index={index}
-                    mailData={mailData}
-                />
-            ))}
+        <div className="mail-list-wrapper">
+            <div className="mail-list">
+                {mailData.map((mailData, index) => (
+                    <EmailItem
+                        key={index}
+                        index={index}
+                        mailData={mailData}
+                    />
+                ))}
+            </div>
         </div>
     )
 }

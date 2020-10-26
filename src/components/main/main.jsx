@@ -50,8 +50,9 @@ export const Main = () => {
                         </div>
                     </div>
                 </div>
-                <MailBox />
             </div>
+            <MailBox />
+
         </div>
     )
 }
