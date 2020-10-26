@@ -17,7 +17,7 @@
 }
 .mail-list-wrapper {
     overflow: auto;
-    height: calc(100vh - 187px);
+    height: calc(100vh - 169px);
 }
 .mail-list {
     display: flex;
