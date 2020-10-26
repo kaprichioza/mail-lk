@@ -2,7 +2,7 @@ import { BottomNavigation, BottomNavigationAction, Button } from '@material-ui/c
 import React from 'react';
 import './content.css';
 import { svgMenu, svgSignOut, svgAlarm, svgMail, svgLabels, svgTrash } from './svgForBtns';
-import { ContentTitle } from './../content-title/contentTitle';
+import { ContentTitle } from './../contentTitle/contentTitle';
 import { mailData } from './../mailBox/mailData';
 export const Content = () => {
     const [value, setValue] = React.useState('recents');
