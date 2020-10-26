@@ -15,9 +15,14 @@
     border-bottom: 1px solid #ededed;
     cursor: pointer;
 }
+.mail-list-wrapper {
+    overflow: auto;
+    height: calc(100vh - 187px);
+}
 .mail-list {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: flex-end; 
 }
 .mail-container.active + .mail-container {
     border: none;
